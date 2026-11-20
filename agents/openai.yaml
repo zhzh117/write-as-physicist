@@ -1,0 +1,14 @@
+interface:
+  display_name: Write As Physicist
+  short_description: Clear scientific prose, precise claims, readable figures
+  default_prompt: Use $write-as-physicist to revise this scientific draft for clear
+    reasoning, precise claims, and natural prose.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
